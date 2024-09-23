@@ -14,7 +14,7 @@ const ChatInterface = () => {
         setError(null);
 
         try {
-            const response = await axios.post('https://6aa0-34-125-186-28.ngrok-free.app/query', {//change link here
+            const response = await axios.post('https://ce8f-35-247-3-198.ngrok-free.app/query', {//change link here
                 query: question
             });
 
