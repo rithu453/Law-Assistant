@@ -58,7 +58,7 @@ const Chatbot = () => {
 
       try {
         console.log('Sending message to backend...');
-        const result = await axios.post('https://ce8f-35-247-3-198.ngrok-free.app/query', { query: input, sessionId: currentSessionId });
+        const result = await axios.post('', { query: input, sessionId: currentSessionId });
 
         setTimeout(() => {
           const botMessage = { text: result.data.answer, user: 'bot', timestamp: new Date() };
